@@ -1,10 +1,19 @@
-const Header=()=>{
+import { Layout,} from "antd"
+
+const { Header } = Layout;
+const HeaderComponent=()=>{
     return (
         <>
-        <h1>Header component</h1>
+        <div className="header-content">
+         <Header className="header"/>
+        </div>
+        
+                
+
+        
         </>
     )
 }
 
 
-export default Header
+export default HeaderComponent
